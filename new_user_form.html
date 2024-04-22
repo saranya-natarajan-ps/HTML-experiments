@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Account Form</title>
+</head>
+
+<body>
+    <h3>New User Account</h3>
+    <form action="new_user_form.html" method="post" enctype="application/x-www-form-urlencoded">
+        Username:<input type="text" name="userName"><br /><br />
+        Password:<input name="password"><br /><br />
+        Password Confirmation:<input name="passwordConfirmation"><br /><br />
+        How did you hear about us?<input name="userDetails" type="radio" value="email">Email
+        <input name="userDetails" type="radio" value="advertisement">Advertisement
+        <input name="userDetails" type="radio" value="linkedin">Linkedin
+        <br /><br />
+        Agree to terms:<input type="checkbox" name="agree" value="Agree to terms"><br /><br />
+        <input type="submit" value="Submit">
+        <input type="submit" value="Cancel">
+
+    </form>
+</body>
+
+</html>
