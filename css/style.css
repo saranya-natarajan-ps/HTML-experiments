@@ -1,0 +1,18 @@
+#bigdeal {
+    font-weight: bold;
+   
+}
+h1{
+    text-align: center;
+    background-color: tan;
+}
+#headBold{
+    font-weight: bold;
+    background-color: lightgray;
+}
+h3 {
+    background-color: lightgray;
+}
+#txtShadow {
+    text-shadow: 2px 2px 2px red;
+}
