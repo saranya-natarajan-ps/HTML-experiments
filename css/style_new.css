@@ -1,0 +1,21 @@
+.footerbg {
+    background-color: lightblue;
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    background-color: lightyellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: bold;
+}
+
+
+.copy {
+    text-align: center;
+
+}
