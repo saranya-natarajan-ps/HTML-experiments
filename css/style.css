@@ -22,4 +22,30 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight:lighter;
   }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 1px solid red;
+    float: left;
+    width: 100%;
+   
+  }
+  .container1 >p>img{
+    flex: 1 1 150px;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    border: 1px solid red;
+    position: relative;
+   
+  }
+  .container1 >p {
+    width: 40%;
+    float: left;
+    border: 1px solid red;
+    position: relative;
+  }
+ 
   
